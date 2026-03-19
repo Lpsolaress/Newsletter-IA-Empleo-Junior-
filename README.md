@@ -1,27 +1,16 @@
-# Newsletter: IA & Empleo Junior
+# React + Vite
 
-Un newsletter futurista y minimalista sobre el impacto de la Inteligencia Artificial en el mercado laboral para perfiles Junior.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Vista Previa
-El diseño está inspirado en estéticas oscuras con acentos de luz neón y efectos de *glassmorphism* (desenfoque vidriado).
+Currently, two official plugins are available:
 
-### Características:
-*   **Tema Oscuro**: Rendimiento y descanso visual con estilo premium.
-*   **Diseño Fluido**: Responsive y adaptado para lectura en múltiples pantallas.
-*   **Contenido Dinámico**: Segmentado en secciones claras con bullets y llamadas a la acción (CTA).
-*   **Enlazado directo**: Conexión con LinkedIn y un panel de herramientas de IA recomendadas (ChatGPT, Gemini, Claude, Perplexity).
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
----
+## React Compiler
 
-## 📂 Estructura del Proyecto
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-```text
-├── newsletter.html  # Archivo principal con HTML y estilos CSS
-└── hero.png         # Imagen de cabecera generada con IA
-```
+## Expanding the ESLint configuration
 
-## 🛠️ Cómo visualizarlos
-Simplemente abre el archivo `newsletter.html` en cualquier navegador web moderno (Chrome, Brave, Safari, Firefox).
-
----
-*Diseño y maquetación de prueba para **AI.Future by Emotions**.*
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
